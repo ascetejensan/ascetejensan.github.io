@@ -19,5 +19,15 @@
         <source src="harry_potter_theme.mp3" type="audio/mpeg">
     </audio>
     <script src="script.js"></script>
+    <audio id="bg-music" loop>
+    <source src="harry_potter_theme.mp3" type="audio/mpeg">
+    </audio>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            let audio = document.getElementById("bg-music");
+            audio.play().catch(error => console.log("Autoplay blocked. Click to start music."));
+        });
+    </script>
+
 </body>
 </html>
