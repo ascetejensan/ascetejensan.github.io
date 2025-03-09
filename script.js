@@ -15,7 +15,9 @@ const questions = [
 // House Points System
 let housePoints = { Gryffindor: 0, Ravenclaw: 0, Hufflepuff: 0, Slytherin: 0 };
 let questionIndex = 0;
-
+//Load background image
+const bgImage = new Image();
+bgImage.src = 'potterhouse.png';
 // Get elements
 const questionElement = document.getElementById("question");
 const optionsContainer = document.getElementById("options");
