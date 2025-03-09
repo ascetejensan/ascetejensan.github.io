@@ -2,8 +2,12 @@ body {
     font-family: 'Times New Roman', serif;
     text-align: center;
     background-color: #f4f4f4;
-    background: url('potterhouse.png') no-repeat center center fixed;
+}
+body {
+    background-image: url('potterhouse.png');
     background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 .container {
     width: 50%;
