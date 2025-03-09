@@ -2,7 +2,6 @@
 body {
     font-family: 'Times New Roman', serif;
     background-image: url('potterhouse.png');  /* 🖼 Background Image */
-    background-size: cover;
     background-position: center;
     background-attachment: fixed;
     text-align: center;
